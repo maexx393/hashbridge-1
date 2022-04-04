@@ -35,7 +35,7 @@ jobs:
             ${{ runner.os }}-go-
       - name: Install Subkey
         run: |
-          wget -P $HOME/.local/bin/ https://hashbridge.ams3.digitaloceanspaces.com/subkey-v2.0.0
+          wget -P $HOME/.local/bin/ https://chainbridge.ams3.digitaloceanspaces.com/subkey-v2.0.0
           mv $HOME/.local/bin/subkey-v2.0.0 $HOME/.local/bin/subkey
           chmod +x $HOME/.local/bin/subkey
           echo "$HOME/.local/bin" >> $GITHUB_PATH
@@ -68,7 +68,7 @@ jobs:
             ${{ runner.os }}-go-
       - name: Install Subkey
         run: |
-          wget -P $HOME/.local/bin/ https://hashbridge.ams3.digitaloceanspaces.com/subkey-v2.0.0
+          wget -P $HOME/.local/bin/ https://chainbridge.ams3.digitaloceanspaces.com/subkey-v2.0.0
           mv $HOME/.local/bin/subkey-v2.0.0 $HOME/.local/bin/subkey
           chmod +x $HOME/.local/bin/subkey
           echo "$HOME/.local/bin" >> $GITHUB_PATH
