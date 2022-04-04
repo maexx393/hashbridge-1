@@ -3,7 +3,7 @@ module github.com/hashprotocol/hashbridge
 go 1.15
 
 require (
-	github.com/hashprotocol/hashbridge-substrate-events v0.0.0-20200715141113-87198532025e
+	github.com/hashprotocol/hashbridge-substrate-events v0.0.1
 	github.com/hashprotocol/hashbridge-utils v1.0.6
 	github.com/hashprotocol/log15 v1.0.0
 	github.com/centrifuge/go-substrate-rpc-client v2.0.0+incompatible
